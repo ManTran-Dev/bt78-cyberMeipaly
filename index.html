@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meipaly</title>
+
+    <!-- ANIMATE STYLE -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- FANCYBOX -->
+    <script src="./libs/fancybox/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="./libs/fancybox/dist/fancybox/fancybox.css" />
+
+    <!-- FONT GOOGLE (OSWALD) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONTAWESOME CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- SLICK CAROUSEL -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="libs/slick-1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="libs/slick-1.8.1/slick/slick-theme.css"
+    />
+
+    <!-- CSS (Ở DƯỚI ƯU TIÊN CAO HƠN)-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header__content container">
+        <!-- brand -->
+        <a href="#" class="brand">
+          <i class="fa-brands fa-atlassian fa-2x"></i>
+          <span>meipaly</span>
+        </a>
+        <!-- nav -->
+        <nav class="nav__bar">
+          <ul>
+            <li class="active"><a href="#">home</a></li>
+            <li><a href="#">service</a></li>
+            <li><a href="#">showcase</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Carousel -->
+    <section id="carousel">
+      <div class="carousel__content">
+        <p>WELCOME TO MEIPALY AGENCY</p>
+        <h1>
+          SMART WEB <br />
+          DESIGN AGENCY
+        </h1>
+        <button>Read More</button>
+        <div class="chevron-down">
+          <i class="fa-solid fa-chevron-down fa-2x"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-5">
+      <div class="services__content container">
+        <div class="title">
+          <p>SERVICES WE ARE OFFERING</p>
+          <h1>WE DESIGN DIGITAL PRODUCTS THAT HELP GROW BUSINESSES.</h1>
+          <p>
+            We are committed to providing our customers with exceptional service
+            while offering <br />our employees the best training.
+          </p>
+        </div>
+        <div class="services__slider">
+          <div class="list-item">
+            <div class="item">
+              <i class="fa-solid fa-dice-d6"></i>
+              <p>app mobile <br />development</p>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-autoprefixer"></i>
+              <p>digital <br />marketing</p>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-500px"></i>
+              <p>
+                seo & content <br />
+                writing
+              </p>
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-blog"></i>
+              <p>website <br />development</p>
+            </div>
+            <div class="item">
+              <i class="fa-brands fa-battle-net"></i>
+              <p>
+                seo & content <br />
+                writing
+              </p>
+            </div>
+            <div class="item">
+              <i class="fa-solid fa-dice-d6"></i>
+              <p>app mobile <br />development</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="py-5">
+      <div class="container">
+        <div class="title">
+          <p>OUR NEWS & ARTICLES</p>
+          <h1>LATEST BLOG POSTS</h1>
+          <p>
+            We are committed to providing our customers with exceptional service
+            while offering <br />our employees the best training.
+          </p>
+        </div>
+        <div class="blog__content">
+          <div class="blog__item blog__item-1">
+            <img src="./img/showcase_img_1.webp" alt="" />
+            <div class="overlay">
+              <div class="overlay-view-image">
+                <a
+                  href="./img/showcase_img_1.webp"
+                  data-fancybox="gallery"
+                  data-caption="Caption #1"
+                  ><i class="fa-solid fa-magnifying-glass-plus"></i
+                ></a>
+              </div>
+              <div class="overlay-text">
+                <p>LOGO</p>
+                <h4>FLIPPIN BIRD</h4>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item">
+            <img src="./img/grid-metro-2.jpg" alt="" />
+            <div class="overlay">
+              <div class="overlay-view-image">
+                <a
+                  href="./img/grid-metro-2.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #2"
+                  ><i class="fa-solid fa-magnifying-glass-plus"></i
+                ></a>
+              </div>
+              <div class="overlay-text">
+                <p>LOGO</p>
+                <h4>FLIPPIN BIRD</h4>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item">
+            <img src="./img/grid-metro-3.jpg" alt="" />
+            <div class="overlay">
+              <div class="overlay-view-image">
+                <a
+                  href="./img/grid-metro-3.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #3"
+                  ><i class="fa-solid fa-magnifying-glass-plus"></i
+                ></a>
+              </div>
+              <div class="overlay-text">
+                <p>LOGO</p>
+                <h4>FLIPPIN BIRD</h4>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item">
+            <img src="./img/grid-metro-4.jpg" alt="" />
+            <div class="overlay">
+              <div class="overlay-view-image">
+                <a
+                  href="./img/grid-metro-4.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #4"
+                  ><i class="fa-solid fa-magnifying-glass-plus"></i
+                ></a>
+              </div>
+              <div class="overlay-text">
+                <p>LOGO</p>
+                <h4>FLIPPIN BIRD</h4>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item">
+            <img src="./img/grid-metro-5.jpg" alt="" />
+            <div class="overlay">
+              <div class="overlay-view-image">
+                <a
+                  href="./img/grid-metro-5.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #5"
+                  ><i class="fa-solid fa-magnifying-glass-plus"></i
+                ></a>
+              </div>
+              <div class="overlay-text">
+                <p>LOGO</p>
+                <h4>FLIPPIN BIRD</h4>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item">
+            <img src="./img/grid-metro-6.jpg" alt="" />
+            <div class="overlay">
+              <div class="overlay-view-image">
+                <a
+                  href="./img/grid-metro-6.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #6"
+                  ><i class="fa-solid fa-magnifying-glass-plus"></i
+                ></a>
+              </div>
+              <div class="overlay-text">
+                <p>LOGO</p>
+                <h4>FLIPPIN BIRD</h4>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item">
+            <img src="./img/grid-metro-7.jpg" alt="" />
+            <div class="overlay">
+              <div class="overlay-view-image">
+                <a
+                  href="./img/grid-metro-7.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #7"
+                  ><i class="fa-solid fa-magnifying-glass-plus"></i
+                ></a>
+              </div>
+              <div class="overlay-text">
+                <p>LOGO</p>
+                <h4>FLIPPIN BIRD</h4>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item">
+            <img src="./img/grid-metro-8.jpg" alt="" />
+            <div class="overlay">
+              <div class="overlay-view-image">
+                <a
+                  href="./img/grid-metro-8.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #8"
+                  ><i class="fa-solid fa-magnifying-glass-plus"></i
+                ></a>
+              </div>
+              <div class="overlay-text">
+                <p>LOGO</p>
+                <h4>FLIPPIN BIRD</h4>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item">
+            <img src="./img/grid-metro-9.jpg" alt="" />
+            <div class="overlay">
+              <div class="overlay-view-image">
+                <a
+                  href="./img/grid-metro-9.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #9"
+                  ><i class="fa-solid fa-magnifying-glass-plus"></i
+                ></a>
+              </div>
+              <div class="overlay-text">
+                <p>LOGO</p>
+                <h4>FLIPPIN BIRD</h4>
+              </div>
+            </div>
+          </div>
+          <div class="blog__item blog__item-10">
+            <img src="./img/grid-metro-10.jpg" alt="" />
+            <div class="overlay">
+              <div class="overlay-view-image">
+                <a
+                  href="./img/grid-metro-10.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Caption #10"
+                  ><i class="fa-solid fa-magnifying-glass-plus"></i
+                ></a>
+              </div>
+              <div class="overlay-text">
+                <p>LOGO</p>
+                <h4>FLIPPIN BIRD</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Counter -->
+    <section id="counter" class="py-5">
+      <div class="section__content container">
+        <div class="section__item">
+          <p class="counter">8,705</p>
+          <span>PROJECTS COMPLETED</span>
+        </div>
+        <div class="section__item">
+          <p class="counter">480</p>
+          <span>ACTIVE CLIENTS</span>
+        </div>
+        <div class="section__item">
+          <p class="counter">625</p>
+          <span>CUPS OF COFFEE</span>
+        </div>
+        <div class="section__item">
+          <p class="counter">9,774</p>
+          <span>HAPPY CLIENTS</span>
+        </div>
+      </div>
+    </section>
+    <!-- Digital  -->
+    <section id="digital" class="py-5">
+      <div class="digital__content container">
+        <div class="title">
+          <p>HOW DO WE WORKS</p>
+          <h1>DIGITAL EXPERIENCE</h1>
+          <p>
+            We are committed to providing our customers with exceptional service
+            while offering our employees the best training.
+          </p>
+        </div>
+        <div class="digital__video">
+          <video controls poster="./img/home_slider.jpg">
+            <source src="./img/video.mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+      <div class="title">
+        <h1 class="animate__animated animate__bounce wow">CONTACT</h1>
+        <p>
+          Thank you for your interest in our website & our services. If you have
+          any <br />
+          questions, please write us a message now!
+        </p>
+      </div>
+      <div class="contact__content">
+        <div class="contact__map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31355.961957079497!2d106.668664!3d10.773330000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752edc3f3043a7%3A0xb490b64157cb9dc1!2sCybersoft!5e0!3m2!1sen!2sus!4v1727856775338!5m2!1sen!2sus"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contact__form">
+          <form action="">
+            <input
+              type="text"
+              name="submitted-name"
+              autocomplete="name"
+              placeholder="Username"
+            />
+            <input
+              type="email"
+              name="submitted-name"
+              autocomplete="name"
+              placeholder="Email Address"
+            />
+            <textarea placeholder="Ask a Question..." rows="10"></textarea>
+            <button class="btnsubmit">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer__content container">
+        <div class="footer__left">
+          <p>© 2021 UI-CYBERSOFT. ALL RIGHTS RESERVED.</p>
+        </div>
+        <div class="footer__right">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- BACK TO TOP  -->
+    <a href="#" class="cd-top text-replace js-cd-top"
+      ><i class="fa-solid fa-chevron-up"></i>
+    </a>
+
+    <!-- BACK-TO-TOP JS -->
+    <script src="./libs/back-to-top/assets/js/util.js"></script>
+    <script src="./libs/back-to-top/assets/js/main.js"></script>
+
+    <!-- SLICK CAROUSEL JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+      integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="libs/slick-1.8.1/slick/slick.min.js"
+    ></script>
+    <script>
+      $(".list-item").slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        infinite: true,
+        arrows: false,
+      });
+    </script>
+
+    <!-- FANCYBOX -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        Hash: false,
+        Thumbs: false,
+        compact: false,
+        wheel: "slide",
+
+        Toolbar: {
+          display: {
+            left: ["infobar"],
+            middle: [],
+            right: ["zoomIn", "slideshow", "close"],
+          },
+        },
+        Images: {
+          protected: true,
+        },
+      });
+    </script>
+
+    <!-- COUNTUP -->
+    <script src="./libs/countup/jquery.countup.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="libs/countup/jquery.countup.js"></script>
+    <script>
+      $(".counter").countUp();
+    </script>
+
+    <!-- WOW JS -->
+    <script src="./libs/wow/WOW-master/WOW-master/dist/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
